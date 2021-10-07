@@ -1,0 +1,44 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          .card-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+          }
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center left;
+          
+          }
+          .card{
+                      
+                      width: 250px;
+                      height: 600px;
+                      border-radius: 15px;
+          
+                      margin-left: 20px;
+                      position: relative;
+                      overflow: hidden;
+                      transition: 1s;
+          }
+          .card h2{
+                      position: absolute;
+                      bottom: 10px;
+                      left: 20px;
+                      width: 90px;
+                      height: 35px;
+                      padding: 3px 0 3px 0;
+                      color: white;
+                      text-align: center;
+                      background: rgb(0, 0, 0,0.5);
+          }
+          .active{
+                      flex: 1;
+          }
